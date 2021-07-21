@@ -9,6 +9,9 @@
   
 ### computer specs:
 ```
+OS:
+Windows Version	10.0.19042 Build 19042
+
 MEM:
 Dual channel DDR3 1600 2x8GB
 
