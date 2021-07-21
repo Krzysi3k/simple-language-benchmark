@@ -6,6 +6,7 @@
 - python 3.9.4
 - PyPy 7.3.4
 - Go 1.16.6
+- Julia 1.6.2
   
 ### computer specs:
 ```
@@ -31,3 +32,4 @@ powershell 7.1 | 14386.0678
 python | 6770.6869
 pypy | 142.519
 go | 38.9969
+julia | 21.0
