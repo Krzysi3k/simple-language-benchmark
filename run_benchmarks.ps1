@@ -1,10 +1,20 @@
-Write-Host "powershell 5.1:" -ForegroundColor Yellow
-powershell.exe .\s.ps1
-Write-Host "powershell 7.1:" -ForegroundColor Yellow
-pwsh.exe .\s.ps1
-Write-Host "python:" -ForegroundColor Yellow
-python .\s.py
-Write-Host "pypy:" -ForegroundColor Yellow
-pypy3 .\s.py
-Write-Host "go:" -ForegroundColor Yellow
-go run .\s.go
+Set-Location $pwd.Path
+Remove-Item .\results.txt -Force -ErrorAction SilentlyContinue
+powershell.exe .\s.ps1 | Out-File .\results.txt -Append
+pwsh.exe .\s.ps1 | Out-File .\results.txt -Append
+python .\s.py | Out-File .\results.txt -Append
+pypy3 .\s.py | Out-File .\results.txt -Append
+go run .\s.go | Out-File .\results.txt -Append
+julia .\s.jl | Out-File .\results.txt -Append
+
+$content = Get-Content .\results.txt
+$languages = @("powershell 5.1", "powershell 7.1", "python", "pypy", "go", "julia")
+$arr = @()
+for ($i = 0; $i -lt $languages.Count; $i++) {
+    $arr += [PSCustomObject]@{
+        language=$languages[$i]
+        result=$content[$i].Replace('ms',' milliseconds')
+    }
+}
+
+$arr
