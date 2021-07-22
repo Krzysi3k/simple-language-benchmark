@@ -31,6 +31,7 @@ Language | time in ms (less is better)
 powershell 5.1 | 28092.7479
 powershell 7.1 | 14386.0678
 python | 6770.6869
+lua | 1512.0
 pypy | 142.519
 go | 38.9969
 julia | 21.0
