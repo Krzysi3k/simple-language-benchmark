@@ -6,6 +6,7 @@ $programs = [ordered]@{
     'python' = 'python .\s.py'
     'pypy' = 'pypy3 .\s.py'
     'lua' = 'lua53 .\s.lua'
+    'LuaJIT' = 'luajit.exe .\s.lua'
     'go' = 'go run .\s.go'
     'julia' = 'julia .\s.jl'
     'dotnet' = 'dotnet run .\s.cs'

@@ -8,6 +8,7 @@
 - Go 1.16.6
 - Julia 1.6.2
 - Lua 5.3.5
+- LuaJIT 2.1.0-beta3
 - .Net core 3.1.117
 
 ### computer specs:
@@ -33,6 +34,7 @@ PowerShell 5.1 | 28092.7479
 PowerShell 7.1 | 14386.0678
 Python | 6770.6869
 Lua | 1512.0
+LuaJIT | 38.0
 PyPy | 142.519
 Go | 38.9969
 Julia | 21.0
