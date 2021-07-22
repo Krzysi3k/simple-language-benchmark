@@ -1,4 +1,4 @@
-## simple recursion and iteration benchmark
+# simple recursion and iteration benchmark
 
 ### Languages used:
 - PowerShell 5.1
