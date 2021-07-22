@@ -7,7 +7,8 @@
 - PyPy 7.3.4
 - Go 1.16.6
 - Julia 1.6.2
-  
+- Lua 5.3.5
+
 ### computer specs:
 ```
 OS:
