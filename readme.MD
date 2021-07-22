@@ -9,9 +9,9 @@
 - Julia 1.6.2
 - Lua 5.3.5
 - LuaJIT 2.1.0-beta3
-- .Net core 3.1.117
+- C# dotnet core 3.1.117
 
-### computer specs:
+### hardware specs:
 ```
 OS:
 Windows Version	10.0.19042 Build 19042
@@ -38,4 +38,4 @@ LuaJIT | 38.0
 PyPy | 142.519
 Go | 38.9969
 Julia | 21.0
-.Net core | 336.0
+C# | 336.0
